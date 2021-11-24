@@ -35,7 +35,7 @@ def contagem(opening,img):
     arroz,_ = cv2.findContours(opening, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     #cv2.RETR_EXTERNAL = conta apenas os contornos externos
     
-    cv2.drawContours(img, arroz, -1, (255, 0,0), 2)#desenha os contornos na copia da imagem original
+    cv2.drawContours(img, arroz, -1, (255, 0,0), 2)#desenha os contornos na imagem original
     
     area_m=[cv2.contourArea(contador) for contador in arroz]#área dos contornos fechados
     
