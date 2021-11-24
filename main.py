@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 
 
-INPUT_IMAGE =  '205.bmp'
+INPUT_IMAGE =  'image/60.bmp'
 
 #algoritmo para processar as imagens
 def process(img):
